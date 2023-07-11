@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+    font-weight: none;
+    font-style: none;
+}
+
+.main_images img{
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color:black;
+    padding: 10px;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    }
+    
+    nav ul li a:hover {
+    background-color: white;
+    }
+
+.hoodies_banner{
+    display: flex;
+    justify-content: center;
+    font-family:'RobotoSlab';
+    font-size: 35px;
+}
+
+.line{
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.main_row{
+    width: 100%;
+    font-family: 'RobotoSlab';
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 425px){
+    .main_row{
+        flex-direction: column;
+    }
+}
+
+.main_images{
+    width: 30%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+@media(max-width: 425px){
+    .main_images{
+        width: 100%;
+    }
+}
+
+.main_text{
+    display: flex;
+    font-family: 'RobotoSlab';
+    font-size: 15px;
+}
+
+.price{
+    color: green;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #333333;
+    margin-top: 140px;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'robotoSlab';
+    font-size: 25px;
+}
+
+.footer_text_a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'robotoSlab';
+    font-size: 15px;
+}
+
+.footer_text_b{
+    display: flex;
+    text-decoration: white;
+    margin-top: 20px;
+    justify-content: space-around;
+    color: white;
+    font-family:'robotoSlab';
+    font-size: 20px;
+}

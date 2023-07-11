@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'SedgwickAveDisplay';
+    src: url(../fonts/SedgwickAveDisplay-Regular.ttf);
+    font-weight: none;
+    font-style: none;
+}
+
+.main_text{
+    font-family: 'SedgwickAveDisplay';
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.main_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.main_text_a{
+    font-family: 'SedgwickAveDisplay';
+    font-size: 60px;
+    display: flex;
+    margin-left: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main_text_a{
+    width: 50%;
+    margin:auto;
+}
